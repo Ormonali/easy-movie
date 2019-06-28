@@ -1,0 +1,45 @@
+nav {
+  background-color: #1f222a;
+  height: 50px;
+  line-height: 50px;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  height: 50px;
+  line-height: 50px;
+}
+nav .button-collapse i {
+  height: 50px;
+  line-height: 50px;
+}
+.nav-wrapper{
+  padding-right: 170px;
+}
+nav .brand-logo { 
+  font-size: 1.6rem; 
+  padding-left: 170px;
+}
+
+@media only screen and (min-width: 601px){
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 50px;
+      line-height: 50px;
+  }
+}
+.carousel-slider {
+  height: 400px !important;
+}
+body{
+  background-color: #1f222a;
+}
+.authentifiaction{
+  background-color: whitesmoke; 
+  height: 400px;
+}
+.registration{
+  background-color: whitesmoke; 
+}
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked{
+  position: relative;
+  opacity: 1;
+}
